@@ -271,3 +271,9 @@ li:hover{
 .section7-landing .space-init h2{
     text-align: center;
 }
+
+.section7-landing .space-init ul{
+    display:flex;
+    justify-content: center;
+    
+}
