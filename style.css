@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#land-container{
+    width:100%;
+    min-height:100vh;
+    background-color:white;
+}
+
+.section1-landing{
+    width:100%;
+    background:url('./img/image-header.jpg'); 
+    background-size:cover;
+    background-position: center;
+    width:1005;
+    height:750px;
+}
+
+.section1-landing .centered-word h1{
+    text-align:center;
+    color:white;
+    letter-spacing: 4.0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:900;
+    font-size:50px;
+
+}
+
+.section1-landing .centered-word {
+    margin-top: 80px;
+}
+
+.padsect{
+    padding:40px;
+}
+
+.section1-landing .head-logo h3{
+    color:white;
+    font-size:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 12px;
+   
+
+}
+
+ul{
+    display:flex;
+    justify-content: flex-end;
+   
+}
+
+li{
+    list-style-type: none;
+    margin:15px;
+    color:white;
+}
+
+li:hover{
+    color:black;
+    background-color: white;
+    height:35px;
+    width:89px;
+    text-align: center;
+    cursor:pointer;
+    border-radius:12px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.section2-landing {
+    width:100%;
+    height: 70vh;
+    display:flex;
+}
+
+.section2-landing .text-section{
+    background-color: white;
+    padding:150px;
+    width:50%;
+}
+
+.section2-landing .text-section h1{
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom:20px;
+}
+
+.section2-landing .text-section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:40px;
+}
+
+.section2-landing .text-section a{
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-decoration: none;
+    text-decoration: underline 6px solid yellow;
+}
+
+.section2-landing .image-section{
+    background-image: url('./img/image-transform.jpg');
+    width:50%;
+    background-size:cover;
+    background-position: center;
+}
+
+
+.section3-landing {
+    width:100%;
+    height: 70vh;
+    display:flex;
+}
+
+.section3-landing .text-section{
+    background-color: white;
+    padding:150px;
+    width:50%;
+}
+
+.section3-landing .text-section h1{
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom:20px;
+}
+
+.section3-landing .text-section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:40px;
+}
+
+.section3-landing .text-section a{
+    color:black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-decoration: none;
+    text-decoration: underline 5px solid palevioletred;
+}
+
+.section3-landing .peach-image{
+    background-image: url('./img/image-stand-out.jpg');
+    width:50%;
+    background-size:cover;
+    background-position: center;
+}
+
+.section4-landing{
+    width:100%;
+    height: 70vh;
+    display:flex;
+}
+
+.section4-landing .cherry-image{
+    background-image: url('./img/image-graphic-design.jpg');
+    width:50%;
+    background-size:cover;
+    background-position: center;
+}
+
+.section4-landing .cherry-orange{
+    background-image: url('./img/image-photography.jpg');
+    width:50%;
+    background-size:cover;
+    background-position: center;
+}
+
+.section4-landing .text-space{
+    padding:200px;
+    text-align: center;
+}
+
+.section4-landing .text-space h2{
+    margin-top:150px;
+    font-family:Courier, monospace;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom:20px;
+    color:rgb(58, 56, 56);
+}
+
+.section4-landing .text-space p{
+    color:rgb(58, 56, 56);
+    padding:20px;
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section5-landing{
+    width:100%;
+    min-height:100vh;
+    background-color: white;
+    padding:100px;
+}
+
+.section5-landing .sect5-text{
+    text-align:center;
+}
+
+.section5-landing .sect5-text h1{
+    text-transform: uppercase;
+    color: rgb(173, 169, 169);
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:120px;
+    line-height:6px;
+    letter-spacing: 0.5em;
+}
+
+.section5-landing .sect5-img{
+    display:flex;
+    justify-content: space-between;
+    margin-top:160px;
+}
+
+.sect5-img img{
+    border-radius:50%;
+    margin-left:100px;
+}
+
+.sect5-img .border{
+    width:350px;
+    height:400px;
+}
+
+.positioning{
+    text-align: center;
+
+}
+
+.positioning .normal{
+    margin-bottom: 20px;
+}
+
+.positioning .in-bold{
+    color:rgb(58, 56, 56);
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 62px;
+    margin-top:40px;
+}
+
+.section6-landing{
+    width:100%;
+    height: 500px;
+}
+
+.section6-landing .styling-img{
+    display:flex;
+}
+
+.section6-landing .styling-img img{
+    height:500px;
+    background-size:cover;
+    background-position: center;
+}
+
+.section7-landing{
+    width:100%;
+    height:350px;
+    background-color: aquamarine;
+}
+
+.section7-landing .space-init{
+    padding:100px;
+}
+
+.section7-landing .space-init h2{
+    text-align: center;
+}
